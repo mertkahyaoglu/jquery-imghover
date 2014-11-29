@@ -21,9 +21,8 @@
 			for (var i = 0; i < data.length; i++) 
 				data[i] = data[i].replace(/\s/g, '');
 
-			var container = $('<div/>', {
-			    style: "position:relative;height:"+options.height+"px;width:"+options.width+"px;"
-			});
+			$this.css({width:options.width, height: options.height});
+
 			var initial = $('<img/>', {
 				id: 'imghoverInitial',
 			    src: data[0],
@@ -37,9 +36,8 @@
 			    style: "display:none;position:absolute;height:"+options.height+"px;width:"+options.width+"px;"
 			});
 
-			container.append(initial);
-			container.append(hover);
-			$this.append(container);
+			$this.append(initial);
+			$this.append(hover);
 
 	        $this.hover(
 	        	function() {
