@@ -41,8 +41,8 @@
 
 	        $this.hover(
 	        	function() {
-	        		$this.find('#imghoverHover').fadeIn(options.delay);
-	        		$this.find('#imghoverInitial').fadeOut(options.delay);
+	        		$this.find('#imghoverHover').stop(true, true).fadeIn(options.delay);
+	        		$this.find('#imghoverInitial').stop(true, true).fadeOut(options.delay);
 	        	},
 	        	function() {
 	        		$this.find('#imghoverHover').stop(true, true).fadeOut(options.delay);
