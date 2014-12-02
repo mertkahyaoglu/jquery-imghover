@@ -1,9 +1,8 @@
 Image Hover Effect
 ==================
-
+[Demo][1]
 A jQuery plugin for better looking icons.
 
-#[Demo][1]
 
 # Usage
 
