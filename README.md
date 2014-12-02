@@ -1,4 +1,4 @@
-Image Hover Effect [(Demo)][1]
+[Demo Page][1]
 ==================
 
 A jQuery plugin for better looking icons.
