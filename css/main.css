@@ -1,0 +1,10 @@
+*{margin: 0;padding: 0}
+
+body{
+	background-color: #000c21;
+}
+
+#github {
+	padding: 20px;
+	margin: 50px auto;
+}
